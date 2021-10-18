@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	<appSettings>
+
+		<add key="Common.System" value="Mari" />
+		<add key="Common.BlobStorage" value="##############" />
+		<add key="Common.Storage" value="##############" />
+		<add key="Marketplace.TimeZoneName" value="##############" />
+
+		<add key="Common.Spec.Url" value="#############"/>
+		<add key="Common.Description.Url" value="##############" />
+		<add key="Common.Profile.Url" value="##############" />
+		<add key="Common.Files.Url" value="##############" />
+		<add key="Common.Print.Url" value="##############" />
+		<add key="Common.Events.Url" value="##############"/>
+		<add key="Common.System" value="Mari" />
+		
+		<add key="MariPrice.BarcodeTable" value="MariPriceBarcodes" />
+
+		<add key="Cors.Origins" value="##############" />
+
+		<add key="Spec.Voc.Metal" value="00000000-5ec2-4827-87e6-a31888b6d76e"/>
+		<add key="Spec.Voc.Quality" value="00000000-5ec2-48aa-87e6-a31888b6d774"/>
+		<add key="Spec.Voc.PriceCluster" value="00000000-60a6-232c-9f47-7f65bdd2701b" />
+		<add key="Spec.Voc.Technologies" value="00000000-5ec2-4796-87e6-a31888b6d765" />
+		
+		<add key="Auth.Url" value="##############" />
+		<add key="Auth.User" value="##############" />
+		<add key="Auth.Password" value="##############" />
+		<add key="Auth.CryptoKey" value="##############" />
+		<add key="Auth.SignKey" value="##############" />
+
+		<add key="Serilog.ElasticNodeUrls" value="#######################" />
+		<add key="Serilog.ElasticAlias" value="#######################" />
+		<add key="Serilog.ElasticUser" value="#######################" />
+		<add key="Serilog.ElasticPassword" value="#######################" />
+		<add key="Serilog.MinimumLevel" value="#######################" />
+
+    		<add key="DefaultImageUrl" value="##############" />    
+    		<add key="MariPrice.BulkPublish.MaxCount" value="100" />
+    
+	</appSettings>
+</configuration>

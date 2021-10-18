@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0-release-20210626-04" />
+    <PackageReference Include="MongoDB.Bson" Version="2.13.0" />
+    <PackageReference Include="Mr.Avalon.Auth.Client" Version="21.8.13.37" />
+    <PackageReference Include="Mr.Avalon.Common.Core.TestTools" Version="21.9.9.17" />
+    <PackageReference Include="Mr.Avalon.Description.Client" Version="21.9.17.17" />
+    <PackageReference Include="Mr.Avalon.Print.Client" Version="21.9.13.27" />
+    <PackageReference Include="Mr.Avalon.Print.Doc" Version="21.9.13.27" />
+    <PackageReference Include="Mr.Avalon.ProfileMari.Client" Version="21.9.6.17" />
+    <PackageReference Include="Mr.Avalon.Spec.Client" Version="21.9.21.57" />
+    <PackageReference Include="Mr.Avalon.Spec.Dto" Version="21.9.21.57" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.5" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.5" />
+		<PackageReference Include="Mr.Avalon.File.Client" Version="21.7.19.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mr.Avalon.MariPrice.Api\Mr.Avalon.MariPrice.Api.csproj" />
+  </ItemGroup>
+
+</Project>

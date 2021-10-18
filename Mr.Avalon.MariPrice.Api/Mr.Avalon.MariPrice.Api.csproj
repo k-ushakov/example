@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mr.Avalon.Auth.Client" Version="21.8.13.37" />
+    <PackageReference Include="Mr.Avalon.Common.Core.Api" Version="21.9.4.17" />
+    <PackageReference Include="Mr.Avalon.Description.Client" Version="21.9.17.17" />
+    <PackageReference Include="Mr.Avalon.Print.Client" Version="21.9.13.27" />
+    <PackageReference Include="Mr.Avalon.Print.Doc" Version="21.9.13.27" />
+    <PackageReference Include="Mr.Avalon.ProfileMari.Client" Version="21.9.6.17" />
+    <PackageReference Include="Mr.Avalon.Spec.Client" Version="21.9.21.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mr.Avalon.MariPrice.Client\Mr.Avalon.MariPrice.Client.csproj" />
+    <ProjectReference Include="..\Mr.Avalon.MariPrice.Core\Mr.Avalon.MariPrice.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Config\_main.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mr.Avalon.Common.Client" Version="21.9.4.17" />
+    <PackageReference Include="Mr.Avalon.Common.Dto" Version="21.9.4.17" />
+    <PackageReference Include="Mr.Avalon.Description.Dto" Version="21.9.9.17" />
+    <PackageReference Include="Mr.Avalon.Spec.Dto" Version="21.9.2.27" />
+  </ItemGroup>
+
+</Project>
